@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.fira-sans-regular{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-around;
+    gap:942px;
+    padding:31px 0;
+    margin-bottom:20px;
+    border:1px solid black;
+}
+.nav-conatiner h1{
+    font-weight:700;
+    font-size:32px;
+    color:#0E0E0E;
+
+}
+
+.nav-container button{
+    font-weight:600;
+    font-size:18px;
+    color:#006A50;
+    border:1px solid #006A50;
+    border-radius:5px;
+    background-color:#F5F5F5;
+    padding:15px 30px;
+}
